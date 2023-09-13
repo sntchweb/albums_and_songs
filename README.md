@@ -3,7 +3,7 @@
 * Установите Docker и Docker-Compose.
 * Клонируйте репозиторий командой:
 `git clone git@github.com:sntchweb/albums_and_songs.git`
-* Создайте в директории /albuns_and_songs/ файл `.env` с переменными окружения.
+* Создайте в директории /albums_and_songs/ файл `.env` с переменными окружения.
 ```
 ALLOWED_HOSTS='localhost localhost:8000 127.0.0.1 127.0.0.1:8000 backend backend:8000'
 DEBUG='True'
