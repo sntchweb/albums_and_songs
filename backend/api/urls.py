@@ -3,7 +3,6 @@ from rest_framework import routers
 
 from api.views import AlbumViewSet, ArtistViewSet, SongViewSet
 
-
 app_name = 'api'
 router = routers.DefaultRouter()
 

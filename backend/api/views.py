@@ -1,7 +1,7 @@
 from rest_framework import viewsets
 
-from api.serializers import SongSerializer, AlbumSerializer, ArtistSerializer
 from api.models import Album, Artist, Song
+from api.serializers import AlbumSerializer, ArtistSerializer, SongSerializer
 
 
 class SongViewSet(viewsets.ModelViewSet):
