@@ -24,4 +24,7 @@ DB_PORT=5432
 `docker compose -f docker-compose.yml exec backend cp -r /app/collected_static/. /static/static/`
 
 API будет доступно по адресу: `http://127.0.0.1/api/`  
-Swagger будет доступен по адресу: `http://127.0.0.1/swagger/`  
+Swagger будет доступен по адресу: `http://127.0.0.1/swagger/`
+
+## Стек:
+Python 3.9, Django 4.1, PostgreSQL
